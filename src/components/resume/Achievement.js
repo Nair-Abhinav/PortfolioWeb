@@ -11,53 +11,39 @@ const Achievement = () => {
     >
       <div>
         <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
-          <h2 className="text-4xl font-bold">Company Experience</h2>
+          <h2 className="text-3xl font-bold">Achievements</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="Finalist,"
+            subTitle=" ACE Hacks Hackathon:"
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            des="Reached the finals of ACE Hacks Hackathon, showcasing innovative AI and ML solutions."
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="Finalist,"
+            subTitle="S4DS Datahack 2.0:"
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
-          />
-          <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            des="Secured finalist in S4DS Datahack 2.0, demonstrating data science proficiency and problem-solving skills."
           />
         </div>
       </div>
       <div>
         <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
+          <h2 className="text-3xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="Publicity Co Committee Member,"
+            subTitle="DJ Init.Ai Club"
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            des="Actively contributing to the publicity initiatives of DJ init.Ai Club, promoting club events and activities to the wider audience."
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="JP Morgan Chase,"
+            subTitle="Student Engagement Program"
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
-          />
-          <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            des="JPMC Actively contributing and learning in the engagement program conducted by JPMC"
           />
         </div>
       </div>

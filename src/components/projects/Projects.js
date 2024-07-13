@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projectTwo, projectOne , projectThree} from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -11,46 +11,28 @@ const Projects = () => {
     >
       <div className="flex justify-center items-center text-center">
         <Title
-          title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
           des="My Projects"
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="Image Processing Web"
+          des=" Developed a tool for seamless design integration onto surfaces from captured photos."
           src={projectOne}
-        />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
+          link = "https://github.com/Nair-Abhinav/ContextVectors_ACE.git"
         />
         <ProjectsCard
           title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-        />
-        <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-        />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
-        />
-        <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des=" Developed an anonymous chat application allowing users to chat without
+revealing their identity."
           src={projectTwo}
+          link = "https://github.com/Aryan-webp/AnonChat.git"
+        />
+        <ProjectsCard
+          title="Blog Website"
+          des=" Explore my blog website project featuring a sleek, modern design and rich, engaging content powered by HTML,CSS and JS."
+          src={projectThree}
+          link = "https://github.com/Nair-Abhinav/init_task_web.git"
         />
       </div>
     </section>

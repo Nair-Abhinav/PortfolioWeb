@@ -1,42 +1,26 @@
-import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe} from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
 
-// Features Data
+import {  FaGlobe} from "react-icons/fa";
+import { SiAntdesign } from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io";
+
 export const featuresData = [
   {
     id: 1,
-    title: "Business Stratagy",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    icon : <IoLogoJavascript />,
+    title: "Competitive Programming",
+    des: "I solve algorithmic challenges to sharpen my coding skills",
   },
+  
   {
     id: 2,
-    icon: <AiFillAppstore />,
-    title: "App Development",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    icon: <SiAntdesign />,
+    title: "UX Design",
+    des: " I create intuitive and visually appealing user interfaces that enhance user experience and facilitate seamless interaction across devices."
   },
   {
     id: 3,
-    icon: <SiProgress />,
-    title: "SEO Optimisation",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
-  },
-  {
-    id: 4,
-    icon: <FaMobile />,
-    title: "Mobile Development",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
-  },
-  {
-    id: 5,
-    icon: <SiAntdesign />,
-    title: "UX Design",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
-  },
-  {
-    id: 6,
     icon: <FaGlobe />,
-    title: "Hosting Websites",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    title: "Web Development",
+    des: "I build and maintain web applications using the MERN stack, focusing on both front-end and back-end to deliver effective user experiences.",
   },
 ];
